@@ -5,7 +5,7 @@ returns an ordered list of all prime numbers in a given range (inclusive of the 
 
 ## Install
 
-Run `npm i` to install node_modules
+Run `npm install` to install node_modules
 
 ## Development server
 
