@@ -1,11 +1,20 @@
 # PrimeNumberGenetor
 
-To use test driven development to implement a prime number generator that
+Angular project that to implement a prime number generator that
 returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
 
 ## Usage
+
 Enter a starting and ending number to generate all the prime number within this range.
-Enter: 2-5(same with 5-2), output: 2,3,5.
+Enter: 2-5(same with 5-2), output: 2,3,5. 
+To click generated item to delete it  from list.
+
+## folder structure
+
+src/app/about: about page componenet to state the problem requirements.
+src/app/generator: main generator component folder which has main HTML5 page, test cases and generator component.
+src/app/generator/models: folder has interface PrimeNumberGenerator, UpdPrimeNumGenerator class and its own componenet test file.
+src/app/: main app module with configured routing. 
 
 ## Install
 
