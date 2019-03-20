@@ -3,6 +3,10 @@
 To use test driven development to implement a prime number generator that
 returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
 
+## Usage
+Enter a starting and ending number to generate all the prime number within this range.
+Enter: 2-5(same with 5-2), output: 2,3,5.
+
 ## Install
 
 Run `npm install` to install node_modules.
