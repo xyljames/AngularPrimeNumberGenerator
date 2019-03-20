@@ -3,25 +3,20 @@
 To use test driven development to implement a prime number generator that
 returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
 
+## Install
+
+Run `npm i` to install node_modules
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
 ## Running unit tests
-
+The current test coverage: 100% Statements, 100% Branches, 100% Functions, 100% Lines
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run ` ng test --code-coverage` to generate test report
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ 
 
 ## Further help
 
