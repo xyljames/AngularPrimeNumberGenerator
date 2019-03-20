@@ -1,6 +1,7 @@
 # PrimeNumberGenetor
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+To use test driven development to implement a prime number generator that
+returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
 
 ## Development server
 
