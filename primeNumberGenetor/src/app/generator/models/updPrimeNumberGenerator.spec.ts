@@ -45,4 +45,16 @@ describe('UpdPrimeNumberGenerator class test cases',()=>{
             expect(component.generate(startNum,endNum)).not.toBeNull()    
         })
     })
+
+    describe('isPrime test cases',()=>{
+        it('if value %2 === 0, return false',()=>{
+            let value =4 ;
+            expect(component.isPrime(value)).toBeFalsy()
+        })
+
+        it('if value %!2==0, return true',()=>{
+            let value =3;
+            expect(component.isPrime(value)).toBeTruthy()
+        })
+    })
 })
