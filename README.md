@@ -3,6 +3,8 @@
 Angular project that to implement a prime number generator that
 returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
 
+Live Demo: https://xyljames.github.io/AngularPrimeNumberGenerator/
+
 ## Usage
 
 Enter a starting and ending number to generate all the prime number within this range.
@@ -28,7 +30,7 @@ Jasmine-core v3.3.0.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.(make sure you are in RIGHT floder:primeNumberGenerator)
 
 ## Test cases
 The current test coverage: 100% Statements, 100% Branches, 100% Functions, 100% Lines.
