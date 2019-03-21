@@ -60,6 +60,12 @@ import { UpdPrimeNumGenerator } from "./models/updPrimeNumberGenerator";
     ])
   ]
 })
+
+/**
+ * @export
+ * @class GeneratorComponent
+ * @implements {OnInit}
+ */
 export class GeneratorComponent implements OnInit {
   btnText:string ='Submit!';
   goalText:number;
@@ -70,11 +76,20 @@ export class GeneratorComponent implements OnInit {
 
   constructor() {}
 
+  /**
+   * 
+   * @param {any} i 
+   * @memberof GeneratorComponent
+   * remove item from list
+   */
   removeItem(i):void {
     this.allPrimeList.pop()
   }
-
-  generatePrimes():void {
+/**
+ * @memberof GeneratorComponent
+ * main method to generate prime numbers by user's input
+ */
+generatePrimes():void {
   let generator:PrimeNumberGenerator = new UpdPrimeNumGenerator();
   //generate primeNumList by given starting and ening number
   this.primeNumList = generator.generate(this.startingNumber,this.endingNumber);

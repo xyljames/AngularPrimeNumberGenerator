@@ -1,7 +1,5 @@
 import { UpdPrimeNumGenerator } from "./updPrimeNumberGenerator";
 import { ComponentFixture, async, TestBed } from "@angular/core/testing";
-import { start } from "repl";
-
 describe('UpdPrimeNumberGenerator class test cases',()=>{
     let component:UpdPrimeNumGenerator;
     let fixture:ComponentFixture<UpdPrimeNumGenerator>;
