@@ -9,7 +9,7 @@ Enter a starting and ending number to generate all the prime number within this 
 Enter: 2-5(same with 5-2), output: 2,3,5. 
 To click generated item to delete it  from list.
 
-## folder structure
+## Folder structure
 
 src/app/about: about page componenet to state the problem requirements.
 src/app/generator: main generator component folder which has main HTML5 page, test cases and generator component.
@@ -20,6 +20,11 @@ src/app/: main app module with configured routing.
 
 Run `npm install` to install node_modules.
 If still have troubles to start, delete package-lock.json and node_modules folder then run npm install agian.
+
+## Versions
+Typescript:Version 2.9.2.
+Jasmine v3.3.1.
+Jasmine-core v3.3.0.
 
 ## Development server
 
