@@ -8,8 +8,6 @@ import { Component } from "@angular/core";
 @Component({
     template:''
 })
-
-
 export class UpdPrimeNumGenerator implements PrimeNumberGenerator{
     newReturnList: Array<Number> = [];
 

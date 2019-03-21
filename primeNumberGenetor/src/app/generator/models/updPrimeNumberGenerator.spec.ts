@@ -1,4 +1,4 @@
-import { UpdPrimeNumGenerator } from "./uddPrimeNumberGenerator";
+import { UpdPrimeNumGenerator } from "./updPrimeNumberGenerator";
 import { ComponentFixture, async, TestBed } from "@angular/core/testing";
 import { start } from "repl";
 
