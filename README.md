@@ -1,7 +1,7 @@
 # PrimeNumberGenetor
 
-Angular project that to implement a prime number generator that
-returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
+Angular project that implements a prime number generator which
+returns anlist of all prime numbers in a given range (inclusive of the endpoints).
 
 Live Demo: https://xyljames.github.io/AngularPrimeNumberGenerator/
 
